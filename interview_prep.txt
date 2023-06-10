@@ -1,0 +1,17 @@
+
+1. Whats is encapsulation? 
+2. What is Abstract class in java ? [Can not intentiate]
+3. Whats is inheritence in java?(Super and  sub class) -> Type of inheritence --> Multiple inherince why not support [ Ambiguity ]
+4. Java8 [ Meta Space, --> n Java 8, PermGen method area replaced with MetaSpace. They have moved permGem to the separate memory in the native OS and that is called MetaSpace. It can by default auto increases its size. In MetaSpace, classes can load and unload during the lifespan of the JVM.
+5. Multi Threading [ Life cycle of Thread,  p1 Thread [start] 
+6. Exception Handling
+7. String Buffer(Sync) and String Buider(not Sync-Not thread safe)
+8. String class in java [immutable] ==, .equals()
+9. How to create immuatble class in java 
+10.Serialization 
+11.Transient variable[Not serizable]
+12.String palindrome [Madam]
+13.Why should be used Spring ? [IOC]
+14.Life cycle of Bean
+15.Transaction on spring [ Programatic way, declarative way]
+16.

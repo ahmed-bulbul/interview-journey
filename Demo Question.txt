@@ -1,0 +1,128 @@
+Demo Question
+============================================
+Java Interview Questions for Developers with 3 to 5 Years of Experience
+These are some frequently asked Java interview questions to 3 to 5 years of experienced developers:
+
+What is a public class?
+What is a local variable?
+How will you create a thread in Java?
+What do you understand about design patterns?
+Which design pattern have you used in your past projects?
+Explain double-level locking in a singleton design pattern.
+How will you use BlockingQueue to implement a producer-consumer problem?
+What are the ways to detect memory leaks in an application?
+How will you print odd-even numbers using threads in sequence?
+On what basis will you decide the young generation and old generation size for an application?
+Some More Sample Java Interview Questions for Developers With 5 Years of Experience
+Explain method overloading Java. 
+Let’s talk about the equals methods.
+Explain the concept of a catch block.
+Describe what it's like working with threads in Java.
+How will you attain thread safety in Java?
+Explain if it is possible to call a run() method of a Thread class.
+How is a program’s Java Thread Dump found?
+Describe the process of multithreading in Java.
+What is the one thing you would keep in mind when multithreading in Java?
+What is context-switching?
+What will be the output of the program given below?
+class A
+
+{
+
+    synchronized void m1()
+
+    {
+
+        System.out.println("In m1 A");
+
+    }
+
+    void m2()
+
+    {
+
+        System.out.println("In m2 A");
+
+    }
+
+}
+
+Java OOPs Interview Questions for Developers With 5 Years of Experience
+Here are some Java OOPs interview questions for developers who have 5 years’ experience:
+
+Is Polymorphism supported in Java?
+Can you implement a class with two interfaces where both the interfaces include a method having the same name and signature?
+How much memory is occupied by a class?
+Do you always need to create objects from class?
+What possible challenges can you face when implementing the concept of multiple inheritances in Java?
+Name the types of constructors in Java.
+Explain the concept of a ternary operator in Java.
+How is an interface different from an abstract class?
+Can you declare a constructor private in Java?
+What is exception handling?
+What is Garbage Collection in OOPs?
+Why is encapsulation also called Data Hiding in Java?
+Can a Java application be run without the implementation of OOPs?
+What is ‘super super’ in java?
+What will be the output in the code below?
+public class Demo{ 
+
+   public static void main(String[] arr){ 
+
+         System.out.println(“Main1”);
+
+   } 
+
+   public static void main(String arr){  
+
+         System.out.println(“Main2”);
+
+   } 
+
+}
+
+
+
+Want to practice more? Here is a compilation of the most important Java OOP questions with answers asked in tech interviews.
+
+Java Thread Interview Questions for Developers with 5 Years’ Experience
+When preparing for your Java Advanced interview, you should also practice some Java Thread interview questions and answers for 5 years of experienced professionals. Here are some sample Java Thread interview questions:
+
+How will you create a daemon thread in Java?
+Demonstrate a portfolio that will include multithreading. 
+Explain how a task is scheduled to run after an interval in Java.
+Describe thread implementation in Java.
+What is time slicing?
+What is a thread schedule?
+What is the difference between a synchronized block and a synchronized method?
+Describe the steps of calling wait(), notify() and notifyAll().
+Explain the concept of ThreadLocal.
+How will you fix (a given) Java multithreading implementation?
+What is ThreadGroup? Why do companies not use it anymore?
+What will happen in a scenario where you do not override the thread class run() method?
+Discuss the concept of a ThreadPool.
+Describe the method of ensuring that three threads (T1, T2, T3) run in sequential order.
+Describe the concepts of Future and Callable.
+Differentiate between thread and process.
+Describe the concept of atomic classes in Java Currency API.
+In what ways was the Currency API updated in Java 8?
+
+
+Interview Prep for Advanture
+===========================================xxx=====================================
+1. What are the essential concepts to understand in wrapper classes? 
+
+    Answer: The most significant concepts to understand in wrapper classes are the eight primitive types of wrapper 
+    classes and where they are best used. It is important to note that it is final and immutable once a wrapper class is assigned. 
+
+
+Q2.Let’s talk about serialization and deserialization a little.
+
+    Answer: Sure! Serialization and deserialization are data handling concepts related to stream handling in Java. Serializing an object means converting it to a byte stream to save or relocate it to another device. Deserializing is the process of undoing the serialization process.
+
+
+Q3: What is a final class in Java?
+    This is a designation that says a class cannot be extended or overridden by a subclass. Declaring a class final helps prevent inheritance and keeps information secure.
+
+Q4.What does static mean? 
+    When you declare a variable or a method as static, it belongs to the class, rather than a specific instance. This means that only one instance of a static member exists, even if you create multiple objects of the class, or if you don't create any. It will be shared by all objects
